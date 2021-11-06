@@ -178,7 +178,7 @@ object frmKeyGeneration: TfrmKeyGeneration
     Top = 8
     Width = 457
     Height = 289
-    ActivePage = tabSerials
+    ActivePage = tabPasswords
     TabOrder = 0
     OnChange = pgcGenerationTypeChange
     object tabPasswords: TTabSheet
@@ -246,7 +246,7 @@ object frmKeyGeneration: TfrmKeyGeneration
         ParentFont = False
         ReadOnly = True
         TabOrder = 2
-        Text = 'Password'
+        Text = '[Click Generate]'
       end
       object btnGeneratePassword: TButton
         Left = 337

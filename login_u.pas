@@ -1,3 +1,4 @@
+{ Joel Cedras, Grade 10 2021 - IT PAT | https://github.com/SkillBeatsAll/itpat-2021 }
 // CREDIT FOR ICONS: Icons8.com, Flaticon.com
 
 unit login_u;
@@ -64,7 +65,6 @@ var
 begin
 	sCaptchaSolution := generateCaptchaText; // generate text for captcha
 	imgCaptcha.Picture := Nil; // reset captcha
-	// makes text transparent so it can be drawn over
 	imgCaptcha.Canvas.Brush.Style := bsClear;
 
 	// set text settings

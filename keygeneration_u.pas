@@ -1,3 +1,5 @@
+{ Joel Cedras, Grade 10 2021 - IT PAT | https://github.com/SkillBeatsAll/itpat-2021 }
+
 unit keygeneration_u;
 
 interface
@@ -146,7 +148,7 @@ const
 var
 	sAllowedChars, sPassword: String;
 begin
-	// here shes checking the type(s) of password and adding that to the character pool to choose from (sAllowedChars)
+	// checking the type(s) of password and adding that to the character pool to choose from (sAllowedChars)
 	if bUppercaseSelected then
 		sAllowedChars := sAllowedChars + sUpper;
 	if bLowercaseSelected then
@@ -156,7 +158,7 @@ begin
 	if bSpecialSelected then
 		sAllowedChars := sAllowedChars + sSpecial;
 
-	// here she generates the password from the character pool
+	// generates the password from the character pool
 	repeat
 		sPassword := sPassword + sAllowedChars[random(Length(sAllowedChars)) + 1];
 	until (Length(sPassword) = iPwdLength);
@@ -260,7 +262,7 @@ begin
 					iDelimiterPosition := StrToInt(edtDelimiterLocation.Text);
 				Except
 					ShowMessage('"' + edtDelimiterLocation.Text +
-						'" is an invalid delimiter position.');
+						'" is an invalid delimiter location.');
 					Exit;
 				end;
 
@@ -268,7 +270,7 @@ begin
 				begin
 					i := 1;
 					repeat
-						// formula for inserting delimtier appropriately
+						// formula for inserting delimiter appropriately
 						Insert(edtDelimiter.Text, sSerialKey, (i * iDelimiterPosition));
 						iKeyLength := iKeyLength + 1;
 						i := i + 1;
@@ -276,7 +278,7 @@ begin
 				end
 				else
 				begin
-					ShowMessage('Delimiter Position must be greater than 0.');
+					ShowMessage('Delimiter Location must be greater than 0.');
 					// feedback
 					Exit;
 				end;
