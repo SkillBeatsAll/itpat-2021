@@ -75,9 +75,9 @@ You can contact me via [email](mailto:joelcedras@gmail.com), via [Twitter](https
 License  
 -------  
   
-This project is distributed under the terms of the [MIT license](https://github.com/SkillBeatsAll/itpat-2021/LICENSE). The license applies to this file and other files in the [GitHub repository](http://github.com/SkillBeatsAll/itpat-2021) hosting this file.
+This project is distributed under the terms of the [MIT license](https://github.com/SkillBeatsAll/itpat-2021/blob/ecbcb7c27645d228d002749588ef2001bba0564a/LICENSE). The license applies to this file and other files in the [GitHub repository](http://github.com/SkillBeatsAll/itpat-2021) hosting this file.
 
-   ```
+```
 Copyright (C) 2021 Joel Cedras / SkillBeatsAll.
 
 Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
@@ -87,6 +87,5 @@ http://opensource.org/licenses/MIT
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR 
 CONDITIONS OF ANY KIND, either express or implied. See the License for the 
 specific language governing permissions and limitations under the License.
-
 ```
 
