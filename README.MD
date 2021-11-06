@@ -37,18 +37,16 @@ In terms of cybersecurity, the codes could include passwords (associated with us
   
 Multi-factor authentication generally considers:  
 • Something the user knows (i.e. a password, PIN or pattern)  
-• Something the user has (i.e. a physical OTP (one-time-password) token or security USB  
-key  
+• Something the user has (i.e. a physical OTP (one-time-password) token or security USB key  
 • Something that is inherent to the user (typically a biometric signature)  
 Note: in some cases, location and network indicators are also used as additional authentication factors.  
   
 Codes could also include CAPTCHA codes such as standard CAPTCHA, picture authentication, math solution, 3-D CAPTCH, drag-and-drop CAPTCHA, Tic Tac Toe CAPTCHA, etc.  
   
-You need to develop a program that generates codes. These codes could include one or more of  the following:  
+You need to develop a program that generates codes. These codes could include one or more of the following:  
 • Passwords  
 • Passcodes, e.g. a pin or one-time passwords  
-• Challenge/Response – answers to challenge questions that may include obscure personal  
-information  
+• Challenge/Response – answers to challenge questions that may include obscure personal information  
 • Multiple codes written in a grid and user must enter code from specific row and column  
 • Product codes/keys  
   
@@ -57,10 +55,8 @@ Your program must also use multi-level authentication, e.g. to be able to use it
 Aspects of your program may include the user specifying:  
 • Length of the code/key  
 • Format of the code/key  
-• Which combination of characters it should include, e.g. only letters and numbers or letters,  
-numbers, special characters, binary replacements for a number, etc.  
-• Check digit, e.g. calculated using mod 9 of the sum of numeric values or request a check  
-digit calculated in one of a couple of listed ways (select the one s/he wants)  
+• Which combination of characters it should include, e.g. only letters and numbers or letters, numbers, special characters, binary replacements for a number, etc.  
+• Check digit, e.g. calculated using mod 9 of the sum of numeric values or request a check digit calculated in one of a couple of listed ways (select the one s/he wants)  
   
 Usage  
 -----  
